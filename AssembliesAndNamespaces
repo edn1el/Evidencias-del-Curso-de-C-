@@ -13,7 +13,7 @@ namespace _15_AssembliesAndNamespaces
 
             Console.WriteLine(reply);
 
-            File.WriteAllText(@"C:\Users\AlphaDuck\Documents\Visual Studio 2022\Projects\BTaborCodingFundamentals\15-AssembliesAndNamespaces\WriteText.txt", reply);
+            File.WriteAllText(@"C:\Users\edn1el\Documents\Visual Studio 2022\Projects\BTaborCodingFundamentals\15-AssembliesAndNamespaces\WriteText.txt", reply);
 
             Console.ReadLine();
         }
