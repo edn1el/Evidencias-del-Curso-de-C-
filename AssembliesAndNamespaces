@@ -1,0 +1,21 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Net;
+
+namespace _15_AssembliesAndNamespaces
+{
+    class Program
+    {
+
+            Console.WriteLine(reply);
+
+            File.WriteAllText(@"C:\Users\AlphaDuck\Documents\Visual Studio 2022\Projects\BTaborCodingFundamentals\15-AssembliesAndNamespaces\WriteText.txt", reply);
+
+            Console.ReadLine();
+        }
+    }
+}
