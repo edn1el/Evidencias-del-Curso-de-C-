@@ -11,17 +11,17 @@ namespace _13_ClassesInheritance
         static void Main(string[] args)
         {
             car mycar = new car();
-            mycar.Make = "BWM";
-            mycar.Model = "745li";
-            mycar.Color = "Black";
-            mycar.Year = 2005;
+            mycar.Make = "Mercedes";
+            mycar.Model = "GLE";
+            mycar.Color = "Orange";
+            mycar.Year = 2024;
 
             printVehicleDetails(mycar);
 
             Truck mytruck = new Truck();
-            mytruck.Make = "Ford";
-            mytruck.Model = "F950";
-            mytruck.Year = 2006;
+            mytruck.Make = "isuzu";
+            mytruck.Model = "Dmax";
+            mytruck.Year = 2024;
             mytruck.Color = "Black";
             mytruck.TowingCapacity = 1200;
             printVehicleDetails(mytruck);
